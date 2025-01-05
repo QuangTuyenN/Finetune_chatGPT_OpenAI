@@ -4,7 +4,7 @@ import os
 from apikey import OPENAI_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
-model_name = "ft:gpt-3.5-turbo-0125:personal::9eIFCaA1"
+model_name = "ft:gpt-3.5-turbo-0125:personal:"
 chat = ChatOpenAI(model=model_name)
 
 while True:
