@@ -22,7 +22,7 @@ response_openai_file = client.files.create(
 print(response_openai_file)
 # {
 #   "object": "file",
-#   "id": "file-kTPxsdHNFhT755CFyFkV68Pi",
+#   "id": "file-",
 #   "purpose": "fine-tune",
 #   "filename": "file",
 #   "bytes": 8385,
@@ -31,7 +31,7 @@ print(response_openai_file)
 #   "status_details": null
 # }
 
-# FileObject(id='file-VFaTUgkPsXz30lfHwNNpt9kl', bytes=73083, created_at=1719389095, filename='datafinetune.jsonl', object='file', purpose='fine-tune', status='processed', status_details=None)
+# FileObject(id='file-', bytes=73083, created_at=1719389095, filename='datafinetune.jsonl', object='file', purpose='fine-tune', status='processed', status_details=None)
 
 
 
